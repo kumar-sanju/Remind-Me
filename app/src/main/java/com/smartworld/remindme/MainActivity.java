@@ -116,13 +116,13 @@ public class MainActivity extends AppCompatActivity {
                 .commit();
     }
 
-    public void toLegal() {
-        LegalFragment frag = new LegalFragment();
-        fm.beginTransaction()
-                .replace(R.id.mainContainer, frag)
-                .addToBackStack(null)
-                .commit();
-    }
+//    public void toLegal() {
+//        LegalFragment frag = new LegalFragment();
+//        fm.beginTransaction()
+//                .replace(R.id.mainContainer, frag)
+//                .addToBackStack(null)
+//                .commit();
+//    }
 
     public void addCross(int arrowOrCross) {
         Log.e("bruh", ""+arrowOrCross);

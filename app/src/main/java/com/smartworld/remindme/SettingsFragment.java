@@ -96,12 +96,12 @@ public class SettingsFragment extends Fragment {
         });
 
 
-        legal.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ((MainActivity)getActivity()).toLegal();
-            }
-        });
+//        legal.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                ((MainActivity)getActivity()).toLegal();
+//            }
+//        });
 
         return v;
     }

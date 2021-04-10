@@ -165,6 +165,7 @@
         android:clickable="true"
         android:textColor="#4b4b4b"
         android:background="?android:attr/selectableItemBackground"
+        android:visibility="invisible"
         />
 
 </LinearLayout>
